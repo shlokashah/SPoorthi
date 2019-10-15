@@ -1,0 +1,51 @@
+img, .box {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4), 0 -1px 0px rgb(50,205,50);
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #00b09b;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    /* background: #00b09b; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #96c93d, #00b09b); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #96c93d, #00b09b); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 -1px 0px rgba(0, 0, 0, 0.02); */
+}
+footer {
+    background-color: #eeeeee;
+    padding: 40px;
+    text-align: center;
+}
+#spoorthi19{
+    width:60%;
+}
+.navbar-brand
+{
+    font-size: 25px;
+    font-weight:600;
+    background: -webkit-linear-gradient(#eee, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar{
+    padding: 0rem 1rem;
+    background-color:black;
+}
+@media screen and (min-width:992px){
+#navbarNav{
+    flex-basis:auto;
+    align-items:right;
+}
+#spoorthi19{
+    width:30%;
+}
+}
