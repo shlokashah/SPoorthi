@@ -14,6 +14,7 @@
     <!-- <link rel="stylesheet" href="../../css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous"> -->
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/base.css" />
@@ -30,220 +31,46 @@
         }
         .box__title-inner{
             font-size: 3rem;
-        }
-/*        nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: #aaa;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0 10px;
-}       
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .5s;
-}
-nav ul li a:hover {
-  color: #555;
-}
-nav.stroke ul li a,
-nav.fill ul li a {
-  position: relative;
-}
-nav.stroke ul li a:after,
-nav.fill ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #aaa;
-  height: 1px;
-}
-nav.stroke ul li a:hover:after {
-  width: 100%;
-}
-
-nav.fill ul li a {
-  transition: all 2s;
-}
-
-nav.fill ul li a:after {
-  text-align: left;
-  content: '.';
-  margin: 0;
-  opacity: 0;
-}
-nav.fill ul li a:hover {
-  color: #fff;
-  z-index: 1;
-}
-nav.fill ul li a:hover:after {
-  z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
-  opacity: 1;
-}
-
-/* Keyframes */
-/*@-webkit-keyframes fill {
-  0% {
-    width: 0%;
-    height: 1px;
-  }
-  50% {
-    width: 100%;
-    height: 1px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    background: red;
-  }*/
-/*}*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-@import url(css/bootstrap.min.css);
-@import url(css/classy-nav.css);
-@import url(css/owl.carousel.min.css);
-@import url(css/animate.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
-.header-area {
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-  top: 30px;
-  left: 0;
-  z-index: 1000; }
-  .header-area .fitness-main-menu {
-    position: relative;
-    width: 100%;
-    height: 85px;
-    background-color: transparent; }
-    .header-area .fitness-main-menu .classy-nav-container {
-      background-color: transparent; }
-    .header-area .fitness-main-menu .classy-navbar {
-      background-color: transparent;
-      height: 85px;
-      padding: 0; }
-      .header-area .fitness-main-menu .classy-navbar .classynav ul li a {
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #ffffff; }
-        .header-area .fitness-main-menu .classy-navbar .classynav ul li a:hover, .header-area .fitness-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #38b143; }
-        @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .header-area .fitness-main-menu .classy-navbar .classynav ul li a {
-            padding: 0 7px;
-            font-size: 13px; } }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .header-area .fitness-main-menu .classy-navbar .classynav ul li a {
-            background-color: #101214; } }
-        @media only screen and (max-width: 767px) {
-          .header-area .fitness-main-menu .classy-navbar .classynav ul li a {
-            background-color: #101214; } }
-      .header-area .fitness-main-menu .classy-navbar .classynav ul li.megamenu-item > a::after,
-      .header-area .fitness-main-menu .classy-navbar .classynav ul li.has-down > a::after {
-        color: #ffffff; }
-      .header-area .fitness-main-menu .classy-navbar .classynav ul li ul li a {
-        color: #101214; }
-        @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .header-area .fitness-main-menu .classy-navbar .classynav ul li ul li a {
-            padding: 0 15px; } }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .header-area .fitness-main-menu .classy-navbar .classynav ul li ul li a {
-            color: #ffffff; } }
-        @media only screen and (max-width: 767px) {
-          .header-area .fitness-main-menu .classy-navbar .classynav ul li ul li a {
-            color: #ffffff; } }
-  .header-area .is-sticky .fitness-main-menu {
-    position: fixed;
-    width: 100%;
-    height: 85px;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    background-color: #101214;
-    box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2); }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #101214; } }
-@media only screen and (max-width: 767px) {
-  .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #101214; } }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .classynav ul li .megamenu .single-mega.cn-col-4 {
-    padding: 0; } }
-@media only screen and (max-width: 767px) {
-  .classynav ul li .megamenu .single-mega.cn-col-4 {
-    padding: 0; } }
-
-.classycloseIcon .cross-wrap span {
-  background: #ffffff; }
-
-
+        }  
 </style>
 </head>
 
-<body style="background-color:black;">
-     <header class="header-area">
-        <!-- Navbar Area -->
-        <div class="fitness-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="fitnessNav">
-                        <!-- Nav brand -->
-                        <!-- <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a> -->
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-                        <!-- Menu -->
-                        <div class="classy-menu">
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="home.html">Sports @ S.P.I.T</a></li>
-                                    <li><a href="events.html">SPoorthi</a></li>
-                                    <li><a href="#">Marathon</a></li>
-                                    <li><a href="about-us.html">Cyclothon</a></li>
-                                    <li><a href="blog.html">SPIT CUP</a></li>
-                                    <li><a href="blog.html">Sponsors</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fill">
+        <div class="container">
+            <a href="home.html" class="navbar-brand" style="color:white;">Sports @ S.P.I.T.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Events
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsorshtml">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacthtml">Contact Us</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
-
-    <div class="container text-center">
-            <div class="box eventtitle">
-            <h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="KHO-KHO">EVENTS</span></h3>
-       </div><br/><br/><br/><br/>
-            <!-- <h1>Events</h1><br/> -->
-        <!-- <a href="/spoorthi19/Spoorthi%202018.pdf" target="_blank">Full Brochure</a> -->
-    </div>
-
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <main>
         <div class="content">
             <div class="grid">
@@ -460,7 +287,7 @@ nav.fill ul li a:hover:after {
                         Dates: 11-01-2019 to 12-01-2019<br/>
                         Timing : 9:00 am- 5:00 pm<br/>
                 </p>
-                </div>
+            </div>
             <div class="overlay__item" id="preview-7">
                 <div class="box">
                     <div class="box__shadow"></div>
