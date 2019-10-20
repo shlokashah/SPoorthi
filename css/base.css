@@ -17,7 +17,7 @@ body {
 	color: #57585c;
 	color: var(--color-text);
 	background-color:#231F20;
-	/*background-color: var(--color-bg);*/
+	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
