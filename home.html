@@ -44,6 +44,7 @@
                                     <li><a href="cyclothon.html">Cyclothon</a></li>
                                     <li><a href="spitcup.html">SPIT CUP</a></li>
                                     <li><a href="sponsors.html">Sponsors</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -97,6 +98,11 @@
             </div>
         </div>
     </section>
+    <div class="middle">
+        <h1>COMING SOON</h1>
+        <hr>
+        <p id="demo"></p>
+     </div>
     <div class="about-us-area section-padding-100-0">
         <div class="container">
             <div class="row">
@@ -137,6 +143,20 @@
     <div class = "roller">
         <img src="http://www.webtutorialplus.com/Images/css-effects-image/roll-ball.png" alt="Football" />
     </div>
+    <div class="timeline">
+        <div class="containers left">
+            <div class="contents">
+                <h2>Register</h2>
+                <p>Choose your favorite events and register for them</p>
+            </div>
+        </div>
+        <div class="containers right">
+            <div class="contents">
+               <h2>Spoorthi</h2>
+                <p>13-31st January</p>
+            </div>
+        </div>
+    </div>
     <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -149,6 +169,36 @@
     <script src="js/active.js"></script>
     <!-- Live Chat Code :: Start of Tawk.to Script -->
 </body>
+<script>
+    // Set the date we're counting down to
+var countDownDate = new Date("Jan 13, 2020 ").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 <footer style="background-color: black; padding:30px; text-align: center;">
         <h3 style="color:#CFFFB3;">Made with
         <span style="color: red">❤</span> by Sports Committee @ Sardar Patel Institute of Technology</h3>
