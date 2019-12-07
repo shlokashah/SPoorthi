@@ -1,0 +1,85 @@
+{% load static from staticfiles %}
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'css/new.css' %}">
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>What's New In SPoorthi This time</h2>
+  <!-- <p>Resize the browser window to see the effect.</p> -->
+</div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark fill">
+        <div class="container">
+            <a href="{% url 'home' %}" class="navbar-brand" style="color:white;">Sports @ S.P.I.T.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'events' %}">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font" style="color:DarkSeaGreen;"><b> SPIT Marathon</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Run For a Cause</b></h1>
+      <p style="color:SeaGreen; font-size: 36px;"> The SPIT Marathon is one of the biggest events of Sardar Patel Institute Of Technology.This year we will be organizing the 6th Edition of SPIT MArathon-Run For Cause.Through this event we combine fitness with charity.We raise money which donated to noble causes.This year we will be donating to the 'United Way Mumbai' foundation to support their Clean Shores Mumbai initiative and Plastic hazard awareness program.In 2018,we aided underprivileged children and in2019,the Plant and Animal SOciety was beneficiary </p>
+    </div>
+    <div class="column-33">
+        <img src="{% static 'images/PAWS.jpg' %}">
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="container" style="background-color:green">
+  <div class="row">
+    <div class="column-33">
+      <img src="/w3images/app5.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>SPIT Cyclothon</b></h1>
+      <!-- <h1 class="large-font" style="color:red;"><b>Pixels, who?</b></h1> -->
+      <p style="font-size: 36px;">Cyclothon is the new event introduced by Sardar Patel Institute Of Technolgy.The cyclothon is going to be 15km long.Main Motive for cyclothon is to encourage our Indian PM's Fit India Movement and help people exercise for a cause.This year we are planning to donate "vanashakti" foundation for Green Communities Foundation.</p>
+    </div>
+  </div>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font" style="color:DarkSeaGreen;"><b>KeyNote Speaker Series</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>To be the Best,Learn From Best</b></h1>
+      <p style="color:SeaGreen; font-size: 36px;">SPoorthi 2020 has planned a compelling line-up of speakers for our enthusiatic audience.We have invited prominent people from the various fields of sports to help us in our strive for glory!They will share their rich life experiences and help us grab the opportunities which are beyond our reach.By disclosing their secrets to success our journey towards our goals will become easier.</p>
+    </div>
+    <div class="column-33">
+        <img src="/w3images/img_app.jpg" width="335" height="471" >
+    </div>
+  </div>
+</div>
+
+</body>
+<footer style="background-color: black;">
+        <h3 style="color:#CFFFB3;">Made with
+        <span style="color: red">❤</span> by Sports Committee @ Sardar Patel Institute of Technology</h3>
+    </footer>
+</html>
