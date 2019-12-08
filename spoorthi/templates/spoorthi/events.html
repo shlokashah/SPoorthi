@@ -51,7 +51,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Register</a>
+                        <a class="nav-link" href="{% url 'register' %}">Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="sponsors.html">Sponsors</a>
@@ -437,21 +437,21 @@
                         Timing : 8:00 am- 5:00 pm<br/>
                 </p>
             </div>
-            <button class="overlay__close" style="margin-top:3rem; color:white !important;" ><i class="fa fa-close"></i></button>
-            <a id="reg1"> register here</a>
-            <a id="reg2" href="http://goo.gl/uQHanQ" target="_blank" > register here </a>
-            <a id="reg3" href="https://goo.gl/forms/5gB75kkAvgjEKRu42" target="_blank"> register here</a>
-            <a id="reg4"> register here</a>
-            <a id="reg5" href="https://goo.gl/forms/1OISqMXzROQ58GzX2" target="_blank"> register here</a>
-            <a id="reg6" href="https://docs.google.com/forms/d/e/1FAIpQLSeodgiXBy2L8QRnRESD_ky6m1WoAHl7KTiXVQKG9GhcdaMKlg/viewform?vc=0&c=0&w=0&usp=mail_form_link" target="_blank"> register here</a>
-            <a id="reg7" href="https://docs.google.com/forms/d/e/1FAIpQLSdaJ5l9fcOpYVruEOTtu4t5_-QHz1IlTw1UCVQgyk3p1uy2RA/viewform" target="_blank"> register here</a>
-            <a id="reg8" href="https://goo.gl/uYt2UL" target="_blank"> register here</a>
+            <button class="overlay__close" style="margin-top:3rem !important; color:white !important;" ><i class="fa fa-close"></i></button>
+            <a id="reg1" href="{% url 'register' %}"> register here</a>
+            <a id="reg2" href="{% url 'register' %}" target="_blank" > register here </a>
+            <a id="reg3" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg4" href="{% url 'register' %}"> register here</a>
+            <a id="reg5" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg6" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg7" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg8" href="{% url 'register' %}" target="_blank"> register here</a>
             <a id="reg9"> register here</a>
-            <a id="reg10" href="https://goo.gl/forms/KPcRTcPFjJMuHNuK2" target="_blank"> register here</a>
-            <a id="reg11" href="https://goo.gl/forms/o8nbXlom3bGTs8dl1" target="_blank"> register here</a>
-            <a id="reg12" href="https://goo.gl/forms/RUf0BwZAqq2OrW0n1" target="_blank"> register here</a>
-            <a id="reg13" href="https://goo.gl/forms/2tHXyRFZc9ywEcYu2" target="_blank"> register here</a>
-            <a id="reg14" href="https://docs.google.com/forms/d/1fEfwvdHrzNfy1okTgjKilskYm1GyMhvbR69S9b4Y2vA/edit?chromeless=1" target="_blank" style="opacity:0;"> register here</a>
+            <a id="reg10" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg11" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg12" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg13" href="{% url 'register' %}" target="_blank"> register here</a>
+            <a id="reg14" href="{% url 'register' %}" target="_blank" style="opacity:0;"> register here</a>
         </div>
     </main>
       
